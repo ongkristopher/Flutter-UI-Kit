@@ -25,11 +25,11 @@ class ProfileTwoPage extends StatelessWidget {
                     child: CircleAvatar(
                       radius: 40.0,
                       backgroundImage: NetworkImage(
-                          "https://avatars0.githubusercontent.com/u/12619420?s=460&v=4"),
+                          "https://lh3.googleusercontent.com/-EUDqVYqPQ-4/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmNCmviZb5nWU2whZkmh8BcLImqJA/photo.jpg?sz=460"),
                     ),
                   ),
                   Text(
-                    "Pawan Kumar",
+                    "Kristopher Ong",
                     style: TextStyle(color: Colors.white, fontSize: 20.0),
                   ),
                   Text(
@@ -62,10 +62,10 @@ class ProfileTwoPage extends StatelessWidget {
                     scrollDirection: Axis.horizontal,
                     itemCount: 5,
                     itemBuilder: (context, i) => Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Image.network(
-                              "https://cdn.pixabay.com/photo/2016/10/31/18/14/ice-1786311_960_720.jpg"),
-                        ),
+                      padding: const EdgeInsets.all(8.0),
+                      child: Image.network(
+                          "https://cdn.pixabay.com/photo/2016/10/31/18/14/ice-1786311_960_720.jpg"),
+                    ),
                   ),
                 ),
               ),
@@ -81,7 +81,7 @@ class ProfileTwoPage extends StatelessWidget {
           children: <Widget>[
             CircleAvatar(
               backgroundImage: NetworkImage(
-                  "https://avatars0.githubusercontent.com/u/12619420?s=460&v=4"),
+                  "https://lh3.googleusercontent.com/-EUDqVYqPQ-4/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmNCmviZb5nWU2whZkmh8BcLImqJA/photo.jpg?sz=460"),
             ),
             Expanded(
                 child: Padding(
@@ -91,7 +91,7 @@ class ProfileTwoPage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
-                    "Pawan Kumar posted a photo",
+                    "Kristopher Ong posted a photo",
                   ),
                   SizedBox(
                     height: 5.0,

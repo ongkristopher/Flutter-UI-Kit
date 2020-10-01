@@ -145,8 +145,8 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: ProfileTile(
-                  title: "Pawan Kumar",
-                  subtitle: "mtechviral@gmail.com",
+                  title: "Kristopher Ong",
+                  subtitle: "ongkristopher@gmail.com",
                   textColor: Colors.white,
                 ),
               )
@@ -175,17 +175,16 @@ class HomePage extends StatelessWidget {
                     shrinkWrap: false,
                     itemCount: menu.items.length,
                     itemBuilder: (context, i) => Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 10.0),
-                          child: ListTile(
-                              title: Text(
-                                menu.items[i],
-                              ),
-                              onTap: () {
-                                Navigator.pop(context);
-                                Navigator.pushNamed(
-                                    context, "/${menu.items[i]}");
-                              }),
-                        ),
+                      padding: const EdgeInsets.symmetric(horizontal: 10.0),
+                      child: ListTile(
+                          title: Text(
+                            menu.items[i],
+                          ),
+                          onTap: () {
+                            Navigator.pop(context);
+                            Navigator.pushNamed(context, "/${menu.items[i]}");
+                          }),
+                    ),
                   ),
                 ),
                 MyAboutTile()

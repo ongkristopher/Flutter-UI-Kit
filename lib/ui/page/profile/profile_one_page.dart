@@ -17,8 +17,8 @@ class ProfileOnePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 ProfileTile(
-                  title: "Pawan Kumar",
-                  subtitle: "Developer",
+                  title: "Kristopher Ong",
+                  subtitle: "Software Developer",
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -41,7 +41,7 @@ class ProfileOnePage extends StatelessWidget {
                         ),
                         child: CircleAvatar(
                           backgroundImage: NetworkImage(
-                              "https://avatars0.githubusercontent.com/u/12619420?s=460&v=4"),
+                              "https://lh3.googleusercontent.com/-EUDqVYqPQ-4/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmNCmviZb5nWU2whZkmh8BcLImqJA/photo.jpg?sz=460"),
                           foregroundColor: Colors.black,
                           radius: 30.0,
                         ),
@@ -69,7 +69,7 @@ class ProfileOnePage extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 50.0),
             child: Text(
-              "Google Developer Expert for Flutter. Passionate #Flutter, #Android Developer. #Entrepreneur #YouTuber",
+              "Aspiring Flutter Developer",
               style: TextStyle(fontWeight: FontWeight.w700),
               textAlign: TextAlign.center,
               maxLines: 3,
@@ -92,21 +92,17 @@ class ProfileOnePage extends StatelessWidget {
                   children: <Widget>[
                     ProfileTile(
                       title: "Website",
-                      subtitle: "about.me/imthepk",
+                      subtitle: "ongkristopher.github.io",
                     ),
                     SizedBox(
                       height: 10.0,
                     ),
                     ProfileTile(
                       title: "Phone",
-                      subtitle: "+919876543210",
+                      subtitle: "+639361376003",
                     ),
                     SizedBox(
                       height: 10.0,
-                    ),
-                    ProfileTile(
-                      title: "YouTube",
-                      subtitle: "youtube.com/mtechviral",
                     ),
                   ],
                 ),
@@ -118,21 +114,32 @@ class ProfileOnePage extends StatelessWidget {
                   children: <Widget>[
                     ProfileTile(
                       title: "Location",
-                      subtitle: "New Delhi",
+                      subtitle: "Philippines",
                     ),
                     SizedBox(
                       height: 10.0,
                     ),
                     ProfileTile(
                       title: "Email",
-                      subtitle: "mtechviral@gmail.com",
+                      subtitle: "ongkristopher@gmail.com",
                     ),
                     SizedBox(
                       height: 10.0,
                     ),
+                  ],
+                ),
+              ),
+              FittedBox(
+                fit: BoxFit.cover,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
                     ProfileTile(
                       title: "Facebook",
-                      subtitle: "fb.com/imthepk",
+                      subtitle: "fb.com/ongkristopher",
+                    ),
+                    SizedBox(
+                      height: 10.0,
                     ),
                   ],
                 ),

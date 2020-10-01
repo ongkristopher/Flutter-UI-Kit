@@ -28,8 +28,8 @@ class DashboardOnePage extends StatelessWidget {
                         : null,
                   ),
                   new ProfileTile(
-                    title: "Hi, Pawan Kumar",
-                    subtitle: "Welcome to the Flutter UIKit",
+                    title: "Hi, Kristopher Ong",
+                    subtitle: "Welcome to the PayWay",
                     textColor: Colors.white,
                   ),
                   new IconButton(
@@ -165,7 +165,7 @@ class DashboardOnePage extends StatelessWidget {
                   ],
                 ),
                 Text(
-                  "₹ 1000",
+                  "Php 1000",
                   style: TextStyle(
                       fontFamily: UIData.ralewayFont,
                       fontWeight: FontWeight.w700,

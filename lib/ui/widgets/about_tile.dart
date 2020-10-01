@@ -16,10 +16,7 @@ class MyAboutTile extends StatelessWidget {
           height: 10.0,
         ),
         Text(
-          "Developed By Pawan Kumar",
-        ),
-        Text(
-          "MTechViral",
+          "Developed By Kristopher Ong",
         ),
       ],
       applicationName: UIData.appName,

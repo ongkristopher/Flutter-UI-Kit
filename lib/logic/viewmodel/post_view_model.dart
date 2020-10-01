@@ -7,14 +7,13 @@ class PostViewModel {
 
   getPosts() => <Post>[
         Post(
-            personName: "Pawan",
-            address: "New Delhi, India",
+            personName: "Kristopher",
+            address: "Bulacan, Philippines",
             likesCount: 100,
             commentsCount: 10,
-            message:
-                "Google Developer Expert for Flutter. Passionate #Flutter, #Android Developer. #Entrepreneur #YouTuber",
+            message: "Aspiring Flutter Developer",
             personImage:
-                "https://avatars0.githubusercontent.com/u/12619420?s=460&v=4",
+                "https://lh3.googleusercontent.com/-EUDqVYqPQ-4/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmNCmviZb5nWU2whZkmh8BcLImqJA/photo.jpg?sz=460",
             messageImage:
                 "https://cdn.pixabay.com/photo/2018/03/09/16/32/woman-3211957_1280.jpg",
             postTime: "Just Now"),
